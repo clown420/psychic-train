@@ -1,22 +1,5 @@
-.kurwa {
-  .lul {
-    h1 {
-      color: #696969;
-    }
-  }
-}
-body {
-  color: #13a;
-  background: #990c0e;
-  font-size: 1.25rem;
-  &::after {
-    width: 100px;
-    position: absolute;
-    content:'1123';
-    top: 0;
-    font-size: 693px;
-    left: 10px;
-    height: 1500px;
-    background: #332211;
-  }
-}
+@import '../../../node_modules/normalize.css/normalize';
+@import './base/_variables';
+@import './modules/_body';
+
+
